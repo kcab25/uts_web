@@ -4,7 +4,7 @@
 
 @section('content')
 <a href="/inventory/create" class="btn btn-primary mb-3">Tambah Barang</a>
-<table class="table table-bordered">
+<table class="table table-bordered" id="dataTable">
     <thead class="table-light">
       <tr>
         <th>ID</th><th>Kode</th><th>Nama</th><th>Jumlah</th><th>Satuan</th><th>Harga</th><th>Status</th><th>Aksi</th>
