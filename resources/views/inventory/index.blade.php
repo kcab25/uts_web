@@ -3,7 +3,9 @@
 @section('title', 'Daftar Barang')
 
 @section('content')
-<a href="/inventory/create" class="btn btn-primary mb-3">Tambah Barang</a>
+<<div class="d-flex justify-content-end mb-3">
+  <a href="/inventory/create" class="btn btn-primary">Tambah Barang</a>
+</div>
 <table class="table table-bordered" id="dataTable">
     <thead class="table-light">
       <tr>
